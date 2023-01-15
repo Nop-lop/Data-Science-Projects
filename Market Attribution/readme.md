@@ -45,4 +45,4 @@ page_visits
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries, along with snapshots of the query results, can be found as attachments to this repository. [Here](Market Attribution/Marketing Attribution.pdf) is the static version of the presentation()
+The SQL queries, along with snapshots of the query results, can be found as attachments to this repository.[Here](Market Attribution/Marketing Attribution.pdf) is the static version of the presentation.

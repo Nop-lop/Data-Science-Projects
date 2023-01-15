@@ -1,4 +1,4 @@
--- Campaigns and sources used by CoolTshirts
+-- Campaigns and sources used by CoolTshirts!
 select count(distinct utm_campaign)
 from page_visits;
 

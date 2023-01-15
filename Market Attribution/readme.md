@@ -45,4 +45,4 @@ page_visits
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries, along with snapshots of the query results, can be found as attachments to this repository.The static version of the presentation is presented [here](https://github.com/Nop-lop/Data-Science-Projects/Market-Attribution/Marketing.Attribution.pdf)
+The SQL queries, along with snapshots of the query results, can be found as attachments to this repository.The static version of the presentation is presented [here](https://github.com/Nop-lop/Data-Science-Projects/Market-Attribution/Marketing-Attribution.pdf)

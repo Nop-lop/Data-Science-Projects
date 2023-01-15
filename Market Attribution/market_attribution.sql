@@ -1,8 +1,8 @@
 -- Campaigns and sources used by CoolTshirts!
-select count(distinct utm_campaign)
+select distinct utm_campaign, distinct utm_source
 from page_visits;
 
-select count(distinct utm_source)
+select count(distinct utm_source),count(distinct utm_campaign)
 from page_visits;
 
 -- Campaign and source relation

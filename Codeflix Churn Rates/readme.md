@@ -1,28 +1,29 @@
-## Market Attribution
-A SQL project focussing on the market attribution and funnel of CoolTshirts
+## Codeflix Churn Rate
+A SQL project focussing on the churn rate for Codeflix, a video streaming start-up that is 4 months into launching.
+As the data analyst, I am tasked by the management to look into subscription performance as main stakeholders are excited about our growth!😊
 
 ----
 #### Content
-* [Introduction](#introduction)
+* [SCHEMA](#schema)
 * [Technologies and Sources](#technology_and_Sources)
 * [Presentation](#presentation)
 
 ----
-### Introduction
+### SCHEMA
+The marketing team are particularly interested in how the churn rates compare between two `segment` users. The dataset provided contains the subsciprtion data for the distinct channels.
+
+The SQL table, __`subscriptions`__ , is used to assess the churn and has 4 columns;
+
+- `id` - A unique identifier for the subscriber
+- `subscription_start` - The start date for the subscription
+- `subscription_end` - The end date for the subscription
+- `segment` - This identifies which segment the subscriber belongs to
+
 <aside>
-💡 CoolTShirts, is an innovative apparel shop, is running a bunch of marketing campaigns. In this project, I’ll be helping them assess and improve their marketing campaigns
+Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subsciprtion in the same month
+
 </aside>
 
-This project used data from the database, __*Page_visits*__ ,to assess the effectiveness of marketing campaigns.
-
-The database has the following columns and used the schema that follows:
-
-- `user_id` - A unique identifier for each visitor to a page
-- `timestamp` - The time at which the visitor came to the page
-- `page_name` - The title of the section of the page that was visited
-- `utm_source` - Identifies which touchpoint sent the traffic (e.g. google, email, or facebook)
-- `utm_medium` - Identifies what type of link was used (e.g. cost-per-click or email)
-- `utm_campaign` - Identifies the specific ad or email blast (e.g. retargetting-ad or weekly-newsletter)
 
 Database Schema
 page_visits

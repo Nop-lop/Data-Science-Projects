@@ -1,7 +1,7 @@
 /* To view all data */
 SELECT *
  FROM subscriptions
- LIMIT 10;
+ LIMIT 20;
 
 /* Range of months in data */
 SELECT MIN(subscription_start) AS earliest_start, 

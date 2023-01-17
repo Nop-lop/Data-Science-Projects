@@ -1,11 +1,11 @@
 ## Codeflix Churn Rate
 A SQL project focussing on the churn rate for Codeflix, a video streaming start-up that is 4 months into launching.
-As the data analyst, I am tasked by the management to look into subscription performance as main stakeholders are excited about our growth!😊
+As the data analyst, I am tasked by the management to look into subscription performance as main stakeholders are excited about our growth! 😊
 
 ----
 #### Content
 * [SCHEMA](#schema)
-* [Technologies and Sources](#technology_and_Sources)
+* [Technologies and Sources](#Technologies_and_Sources)
 * [Presentation](#presentation)
 
 ----
@@ -19,14 +19,14 @@ The SQL table, __`subscriptions`__ , is used to assess the churn and has 4 colum
 - `subscription_end` - The end date for the subscription
 - `segment` - This identifies which segment the subscriber belongs to
 
+
 <aside>
-Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subsciprtion in the same month
+ Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subscription in the same month
 
 </aside>
 
-
 Database Schema
-page_visits
+subscriptions
 | name | type |
 |:------|:------|
 | page_name | TEXT |

@@ -20,30 +20,24 @@ The SQL table, __`subscriptions`__ , is used to assess the churn and has 4 colum
 - `segment` - This identifies which segment the subscriber belongs to
 
 
-<aside>
- Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subscription in the same month
-
-</aside>
+__Note__: Codeflix requires a minimum subscription length of 31 days, so a user can never start and end their subscription in the same month
 
 Database Schema
-subscriptions
 | name | type |
 |:------|:------|
-| page_name | TEXT |
-| timestamp |	TEXT |
-| user_id | INTEGER |
-| utm_campaign | TEXT |
-| utm_source|	TEXT |
-| Rows: 5692 | 
+| id | INTEGER |
+| subscription_start |	TEXT |
+| subscription_end | TEXT |
+| segment | INTEGER |
+| Rows: 2000 | 
 
--> SQL queries are used to explore the data and calculate top 5 campaigns with the highest % of purchases
+-> SQL queries are used to explore the data and calculate the churn rates of segments 30 and 70 between January and March, 2017
 
 ### Technologies and Sources
 * SQL
-* Microsoft Excel
-* Microsoft PowerPoint
+* Tableau
 
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries, along with snapshots of the query results, can be found as attachments to this repository.The static version of the presentation is presented [here](https://github.com/Nop-lop/Data-Science-Projects/blob/e437f84b2ffaad10067f1da2b95b58ea8159b3a8/Market%20Attribution/Marketing%20Attribution.pdf)
+The SQL queries and their results have been attached to this repo.The static version of the dashboard is presented, and [here]() is the interactive version of the dashboard

@@ -35,9 +35,10 @@ Database Schema
 
 ### Technologies and Sources
 * SQL
-* Tableau
+* Microsoft Excel
+* Canva
 
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries and their results have been attached to this repo.The static version of the dashboard is presented, and [here]() is the interactive version of the dashboard
+The SQL queries and their results have been attached to this repo.The static version of the dashboard is presented, and [here](https://github.com/Nop-lop/Data-Science-Projects/blob/e57c695ef2b04d6e988ae346e502df5d774b99e2/Codeflix%20Churn%20Rates/Codeflix%20board.pdf) is the interactive version of the dashboard

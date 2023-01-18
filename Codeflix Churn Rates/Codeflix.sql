@@ -2,6 +2,15 @@
 SELECT *
  FROM subscriptions
  LIMIT 20;
+ 
+ /* segments in dataset */
+ SELECT DISTINCT segment
+ FROM subscriptions;
+ 
+ /* first sub, latest sub, latest cancel */
+ SELECT  MIN(subscription_start) AS earliest_sub,
+ MAX(subscription_start) AS latest_sub, MAX(subscription_end) AS latest_cancel
+ FROM subscriptions;
 
 /* Range of months in data */
 SELECT MIN(subscription_start) AS earliest_start, 

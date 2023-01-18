@@ -41,7 +41,5 @@ Database Schema
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries and their results have been attached to this repo.The static version of the dashboard is attached as a 
-
-![board](https://github.com/Nop-lop/Data-Science-Projects/blob/c7bca651650bc6f4e3111cc76d7a49b20da0977d/Codeflix%20Churn%20Rates/Codeflix%20board.pdf)
+The SQL queries and their results have been attached to this repo.The static image is [showcased](https://github.com/Nop-lop/Data-Science-Projects/blob/c7bca651650bc6f4e3111cc76d7a49b20da0977d/Codeflix%20Churn%20Rates/Codeflix%20board.pdf)
 

@@ -9,7 +9,7 @@ As the data analyst, I am tasked by the management to look into subscription per
 * [Presentation](#presentation)
 
 ----
-### SCHEMA
+### 🍿 SCHEMA
 The marketing team are particularly interested in how the churn rates compare between two `segment` users. The dataset provided contains the subsciprtion data for the distinct channels.
 
 The SQL table, __`subscriptions`__ , is used to assess the churn and has 4 columns;
@@ -41,4 +41,5 @@ Database Schema
 This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze Data with SQL course.
 
 ### Presentation
-The SQL queries and their results have been attached to this repo.The static version of the dashboard is presented, and [here](https://github.com/Nop-lop/Data-Science-Projects/blob/e57c695ef2b04d6e988ae346e502df5d774b99e2/Codeflix%20Churn%20Rates/Codeflix%20board.pdf) is the interactive version of the dashboard
+The SQL queries and their results have been attached to this repo.The static version of the dashboard is presented [here][Codeflix board.pdf](https://github.com/Nop-lop/Data-Science-Projects/files/10449776/Codeflix.board.pdf)
+

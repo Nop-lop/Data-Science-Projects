@@ -42,5 +42,5 @@ This project can be found on [Codecademy](https://www.codecademy.com/)'s Analyze
 
 ### Presentation
 
-The SQL queries and their results have been attached to this repo. Here is a summary of the analysis [Codeflix Board.pdf](https://github.com/Nop-lop/Data-Science-Projects/files/10475778/Codeflix.Board.pdf)
+The SQL queries and their results have been attached to this repo. Here is a summary of the analysis [Codeflix Board](https://github.com/Nop-lop/Data-Science-Projects/blob/b68f615ceef8e916461694346770d1889335f6c6/Codeflix%20Churn%20Rates/Codeflix%20Board.pdf)
 

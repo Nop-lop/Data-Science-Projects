@@ -26,21 +26,21 @@ num_sales_needed_099 = np.ceil(1000/0.99)
 print('No of $0.99 sales needed:',num_sales_needed_099)
 
 p_sales_needed099 = num_sales_needed_099/num_visits
-print('Proportion of weekly visitors needed to make  revenue, from group A ($0.99) subscription:',p_sales_needed099)
+print('Proportion of weekly visitors needed to make  revenue, from Group A ($0.99) subscription:',p_sales_needed099)
 
 #group B subscriptions
 num_sales_needed_199 = np.ceil(1000/1.99)
 print('No of $1.99 sales needed:',num_sales_needed_199)
 
 p_sales_needed_199 = num_sales_needed_199/num_visits
-print('Proportion of weekly visitors needed to make  revenue, from group B ($1.99) subscription:',p_sales_needed_199)
+print('Proportion of weekly visitors needed to make  revenue, from Group B ($1.99) subscription:',p_sales_needed_199)
 
 #group C subscriptions
 num_sales_needed_499 = np.ceil(1000/4.99)
 print('No of $4.99 sales needed:',num_sales_needed_499)
 
 p_sales_needed_499 = num_sales_needed_499/num_visits
-print('Proportion of weekly visitors needed to make  revenue, from group C ($4.99) subscription:',p_sales_needed_499)
+print('Proportion of weekly visitors needed to make  revenue, from Group C ($4.99) subscription:',p_sales_needed_499)
 
 # Binom test for Group A
 from scipy.stats import binom_test

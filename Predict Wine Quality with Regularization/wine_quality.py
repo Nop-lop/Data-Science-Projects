@@ -72,8 +72,8 @@ for c_val in C_array:
   test_array.append(f1_score(y_test, y_pred_tests))
 
 # 10. Plotting train and test scores as a function of C
-plt.plot(C_array,training_array)
-plt.plot(C_array,test_array)
+plt.plot(C_array,training_array, label = 'Training Score')
+plt.plot(C_array,test_array, label = 'Testing Score')
 plt.xscale('log')
 plt.ylabel('F1 Scores')
 plt.xlabel('C values')
@@ -94,7 +94,8 @@ gs = GridSearchCV(estimator = clf_gs, param_grid = tuning_C, scoring = 'f1', cv 
 gs.fit(x_train, y_train)
 
 # 12. Optimal C-value and its associated score
-print(gs.best_params_, gs.best_score_)
+print('Best parameter ',gs.best_params_)
+print('Ridge reg. fine tuned', gs.best_score_)
 
 # 13. Using this optimal C-value on our test data set to obtain its f1 score
 clf_best_ridge = LogisticRegression(C = gs.best_params_['C'])
@@ -114,8 +115,11 @@ cval_arr = np.logspace(-2, 2, 100)
 for cval in cval_arr:
   clf_l1 = LogisticRegressionCV(Cs=cval, cv = 5, penalty = 'l1', scoring = 'f1', solver='liblinear')
 
+import sklearn
+sklearn.show_versions()
+
 ## 15. Optimal C value and corresponding coefficients
-print('Best C value', clf_l1.Cs_)
+print('Best C value', clf_l1.C_)
 print('Best fit coefficients', clf_l1.coef_)
 
 
